@@ -1,5 +1,5 @@
 
-# **📖 Membuat Branch Baru dan Push ke Branch Sendiri di GitHub**
+# **📖 Membuat Branch Baru dan Push ke Branch Sendiri**
 
 ## **Membuat Branch Baru :**
 
