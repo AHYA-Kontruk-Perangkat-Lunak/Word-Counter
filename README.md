@@ -5,9 +5,9 @@
 
 ### **Langkah 1: Clone Repo dari GitHub**
 
-~ https://github.com/AHYA-Kontruk-Perangkat-Lunak/Word-Counter.git
+* git clone https://github.com/AHYA-Kontruk-Perangkat-Lunak/Word-Counter.git
 
-~ cd `Word-Counter`
+* cd `Word-Counter`
 
 ### **Langkah 2: Pastikan di Branch Utama (main)**
 
