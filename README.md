@@ -1,37 +1,34 @@
-📖 Tutorial Membuat Branch Baru dan Push ke Branch Sendiri di GitHub
 
-Membuat Branch Baru:
+# **📖 Membuat Branch Baru dan Push ke Branch Sendiri di GitHub**
 
-Langkah 1: Clone Repo dari GitHub
+## **Membuat Branch Baru :**
+
+### **Langkah 1: Clone Repo dari GitHub**
 
 ~ https://github.com/AHYA-Kontruk-Perangkat-Lunak/Word-Counter.git
 
-~ cd Word-Counter
+~ cd `Word-Counter`
 
-Langkah 2: Pastikan di Branch Utama (main)
+### **Langkah 2: Pastikan di Branch Utama (main)**
 
-~ git checkout main
+* git checkout main
 
-~ git pull origin main
+* git pull origin main
 
-Langkah 3: Membuat Branch Baru
+### **Langkah 3: Membuat Branch Baru**
 
-~ git checkout -b (fitur yang kamu kerjakan)
+* git checkout -b (fitur yang kamu kerjakan)
 
-~ -b artinya membuat branch baru dan langsung pindah ke branch tersebut.
+* -b artinya membuat branch baru dan langsung pindah ke branch tersebut.
 
-========================================================
-
-Push ke Branch Sendiri:
+## **Push ke Branch Sendiri :**
 1. git add .
 
 2. git commit -m "Menambahkan fitur hitung jumlah kata"
 
 3. git push -u origin (branch kamu)
 
-========================================================
-
-Format Github:
+## **Command Github :**
 
 1. git add . (untuk menambahkan semua perubahan di direktori saat ini)
 
