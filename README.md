@@ -26,7 +26,7 @@
 
 2. git commit -m "Menambahkan fitur hitung jumlah kata"
 
-3. git push -u origin (branch kamu)
+3. git push -u origin (nama branch kamu)
 
 ## **Command Github :**
 
