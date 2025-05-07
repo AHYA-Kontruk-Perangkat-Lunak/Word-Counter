@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter\\Word-Counter.csproj": {}
+    "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter\\Word-Counter.csproj": {
+    "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter\\Word-Counter.csproj",
+        "projectUniqueName": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter.csproj",
         "projectName": "Word-Counter",
-        "projectPath": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter\\Word-Counter.csproj",
+        "projectPath": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter.csproj",
         "packagesPath": "C:\\Users\\amiru\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Word-Counter\\obj\\",
+        "outputPath": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
