@@ -28,7 +28,7 @@ namespace SimpleWordCounter
                 switch (input)
                 {
                     case "1":
-                        WordCounter.CountWords();
+                        TotalKata.JumlahKata();
                         break;
                     case "5":
                         exit = true;
