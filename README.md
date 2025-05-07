@@ -1,7 +1,7 @@
 
 # **📖 Membuat Branch Baru dan Push ke Branch Sendiri**
 
-##NOTE :##
+## **NOTE :**
 * Kalau mau coding pastikan kamu ada di branch kamu
 
 ## **Membuat Branch Baru :**
