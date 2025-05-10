@@ -22,7 +22,7 @@ namespace SimpleWordCounter
                 Console.WriteLine("   Selamat Datang di Word Counter  ");
                 Console.WriteLine("===================================");
                 Console.WriteLine("Silakan pilih fitur yang ingin digunakan:");
-                Console.WriteLine("1. Hitung Jumlah Kata")
+                Console.WriteLine("1. Hitung Jumlah Kata");
                 Console.WriteLine("0. Keluar");
                 Console.Write("Masukkan pilihan Anda (0-5): ");
 
