@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using SimpleWordCounter;
 
 namespace SimpleWordCounter
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             bool exit = false;
+
+            var menuActions = new Dictionary<string, Action>
+            {
+                { "1", WordCounter.ShowWordCount }
+            };
 
             while (!exit)
             {
@@ -16,30 +22,27 @@ namespace SimpleWordCounter
                 Console.WriteLine("   Selamat Datang di Word Counter  ");
                 Console.WriteLine("===================================");
                 Console.WriteLine("Silakan pilih fitur yang ingin digunakan:");
-                Console.WriteLine("1. Hitung Jumlah Kata");
-                Console.WriteLine("2. Tampilkan Frekuensi Kata");
-                Console.WriteLine("3. Hitung Jumlah Karakter");
-                Console.WriteLine("4. Periksa Kata Terlarang");
-                Console.WriteLine("5. Keluar");
-                Console.Write("Masukkan pilihan Anda (1-5): ");
+                Console.WriteLine("1. Hitung Jumlah Kata")
+                Console.WriteLine("0. Keluar");
+                Console.Write("Masukkan pilihan Anda (0-5): ");
 
-                string input = Console.ReadLine();
+                string input = Console.ReadLine() ?? "";
 
-                switch (input)
+                if (input == "0")
                 {
-                    case "1":
-                        TotalKata.JumlahKata();
-                        break;
-                    case "5":
-                        exit = true;
-                        Console.WriteLine("Terima kasih telah menggunakan aplikasi ini.");
-                        break;
-                    default:
-                        Console.WriteLine("Pilihan tidak valid. Silakan coba lagi.");
-                        break;
+                    exit = true;
+                    Console.WriteLine("Terima kasih telah menggunakan aplikasi ini.");
+                }
+                else if (menuActions.ContainsKey(input))
+                {
+                    menuActions[input].Invoke();
+                }
+                else
+                {
+                    Console.WriteLine("Pilihan tidak valid. Silakan coba lagi.");
                 }
 
-                if (input != "5")
+                if (!exit)
                 {
                     Console.WriteLine("\nTekan sembarang tombol untuk kembali ke menu...");
                     Console.ReadKey();

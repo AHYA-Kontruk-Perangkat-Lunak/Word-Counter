@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\",
+  "WorkspaceRootPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\TotalKata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TotalKata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\WordCounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WordCounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TotalKata.cs",
-              "DocumentMoniker": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\TotalKata.cs",
-              "RelativeDocumentMoniker": "TotalKata.cs",
-              "ToolTip": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\TotalKata.cs",
-              "RelativeToolTip": "TotalKata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WordCounter.cs",
+              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\WordCounter.cs",
+              "RelativeDocumentMoniker": "WordCounter.cs",
+              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\WordCounter.cs",
+              "RelativeToolTip": "WordCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T20:18:35.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Program.cs",
+              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Program.cs",
+              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\Word-Counter\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T19:51:58.941Z",
               "EditorCaption": ""
