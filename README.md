@@ -31,6 +31,17 @@
 
 3. git push -u origin (nama branch kamu)
 
+## **Push dari Branch Sendiri ke Main :**
+1. git checkout main
+
+2. git pull origin
+
+3. git merge (nama branch kamu)
+
+4. git push origin main
+
+5. git checkout (nama branch kamu)
+
 ## **Command Github :**
 
 1. git add . (untuk menambahkan semua perubahan di direktori saat ini)
