@@ -12,7 +12,7 @@ namespace SimpleWordCounter
 
             var menuActions = new Dictionary<string, Action>
             {
-                { "1", PenghitungKata.TampilkanJumlahKata }
+                { "1", WordCounter.ShowWordCount }
             };
 
             while (!exit)
@@ -24,7 +24,7 @@ namespace SimpleWordCounter
                 Console.WriteLine("Silakan pilih fitur yang ingin digunakan:");
                 Console.WriteLine("1. Hitung Jumlah Kata");
                 Console.WriteLine("0. Keluar");
-                Console.Write("Masukkan pilihan Anda (1-0): ");
+                Console.Write("Masukkan pilihan Anda (0-5): ");
 
                 string input = Console.ReadLine() ?? "";
 
@@ -44,7 +44,7 @@ namespace SimpleWordCounter
 
                 if (!exit)
                 {
-                    Console.WriteLine("\nTekan ENTER ...");
+                    Console.WriteLine("\nTekan sembarang tombol untuk kembali ke menu...");
                     Console.ReadKey();
                 }
             }
