@@ -1,49 +1,53 @@
 using System;
 using System.Collections.Generic;
 
-namespace SimpleWordCounter
+namespace WordCounter
 {
-    public static class WordCounter
+    public static class PenghitungKata
     {
-        // Menggunakan generics agar bisa menghitung frekuensi elemen dengan tipe apapun yang implementasikan IEquatable
-        public static Dictionary<T, int> CountItems<T>(IEnumerable<T> items)
+        public static Dictionary<T, int> HitungElemen<T>(IEnumerable<T> elemen) where T : notnull
         {
-            var counts = new Dictionary<T, int>();
+            var hitungan = new Dictionary<T, int>();
 
-            foreach (var item in items)
+            foreach (var elemenItem in elemen)
             {
-                if (counts.ContainsKey(item))
+                if (hitungan.ContainsKey(elemenItem))
                 {
-                    counts[item]++;
+                    hitungan[elemenItem]++;
                 }
                 else
                 {
-                    counts[item] = 1;
+                    hitungan[elemenItem] = 1;
                 }
             }
 
-            return counts;
+            return hitungan;
         }
 
-        // Fungsi ini sekarang menerima teks dan menghitung frekuensi setiap kata menggunakan generics
-        public static void ShowWordCount()
+        public static void TampilkanJumlahKata()
         {
             Console.Clear();
             Console.WriteLine("=== Hitung Jumlah Kata ===");
             Console.Write("Masukkan teks: ");
-            string textToCount = Console.ReadLine() ?? "";
+            string teksUntukDihitung = Console.ReadLine() ?? "";
 
-            // Memecah teks menjadi kata-kata dan menghitung frekuensinya
-            var words = textToCount.Split(new char[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+            var kataKata = teksUntukDihitung.Split(new char[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
-            // Menggunakan metode CountItems yang generik
-            var wordCounts = CountItems(words);
+            var hitunganKata = HitungElemen(kataKata);
 
-            Console.WriteLine("\nJumlah Kata:");
-            foreach (var kvp in wordCounts)
+            Console.WriteLine("\nJumlah Kata per Kata:");
+            foreach (var kvp in hitunganKata)
             {
                 Console.WriteLine($"{kvp.Key}: {kvp.Value}");
             }
+
+            int totalKata = 0;
+            foreach (var jumlah in hitunganKata.Values)
+            {
+                totalKata += jumlah;
+            }
+
+            Console.WriteLine($"\nTotal semua kata: {totalKata}");
         }
     }
 }

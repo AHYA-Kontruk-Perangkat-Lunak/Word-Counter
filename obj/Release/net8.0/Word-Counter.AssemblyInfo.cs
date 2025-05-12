@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Word-Counter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a85ec21291bba29c9f0c17f0012bea565c61ec2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a4bd975c527df85483f49017c356f2ceb565526")]
 [assembly: System.Reflection.AssemblyProductAttribute("Word-Counter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Word-Counter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using SimpleWordCounter;
+using WordCounter;
 
-namespace SimpleWordCounter
+namespace WordCounter
 {
     public class Program
     {
@@ -12,7 +12,7 @@ namespace SimpleWordCounter
 
             var menuActions = new Dictionary<string, Action>
             {
-                { "1", WordCounter.ShowWordCount }
+                { "1", PenghitungKata.TampilkanJumlahKata }
             };
 
             while (!exit)
@@ -31,7 +31,7 @@ namespace SimpleWordCounter
                 if (input == "0")
                 {
                     exit = true;
-                    Console.WriteLine("Terima kasih telah menggunakan aplikasi ini.");
+                    Console.WriteLine("Terima kasih telah menggunakan aplikasi WordCounter.");
                 }
                 else if (menuActions.ContainsKey(input))
                 {
@@ -44,7 +44,7 @@ namespace SimpleWordCounter
 
                 if (!exit)
                 {
-                    Console.WriteLine("\nTekan sembarang tombol untuk kembali ke menu...");
+                    Console.WriteLine("\nTekan ENTER ....");
                     Console.ReadKey();
                 }
             }
