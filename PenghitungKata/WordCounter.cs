@@ -36,16 +36,25 @@ namespace WordCounter
                 Console.Write("Masukkan teks: ");
                 string teksUntukDihitung = Console.ReadLine() ?? "";
 
-                var kataKata = teksUntukDihitung.Split(
+                // Bersihkan tanda baca
+                var charsToRemove = new HashSet<char>(".,;:\"!@#$%^&*()_+=/\\-–—<>?~`0123456789");
+
+                string teksBersih = "";
+                foreach (char c in teksUntukDihitung)
+                {
+                    teksBersih += charsToRemove.Contains(c) ? ' ' : c;
+                }
+
+                var kataKata = teksBersih.Split(
                     new char[] { ' ', '\t', '\n', '\r' },
                     StringSplitOptions.RemoveEmptyEntries);
 
                 var hitunganKata = HitungElemen(kataKata);
 
                 Console.WriteLine("\nJumlah Kata per Kata:");
-                foreach (var item in hitunganKata)
+                foreach (var elemen in hitunganKata)
                 {
-                    Console.WriteLine($"{item.Key}: {item.Value}");
+                    Console.WriteLine($"{elemen.Key}: {elemen.Value}");
                 }
 
                 int totalKata = hitunganKata.Count > 0 ? hitunganKata.Values.Sum() : 0;
