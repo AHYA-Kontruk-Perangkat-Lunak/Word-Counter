@@ -1,6 +1,10 @@
 
 # **📖 Membuat Branch Baru dan Push ke Branch Sendiri**
 
+## **NOTE :**
+* Kalau mau coding pastikan kamu ada di branch kamu
+* Jangan lupa untuk git pull origin main untuk menyamakan dengan di git main
+
 ## **Membuat Branch Baru :**
 
 ### **Langkah 1: Clone Repo dari GitHub**
