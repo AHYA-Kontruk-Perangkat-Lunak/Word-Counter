@@ -1,0 +1,14 @@
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\bin\Debug\net8.0\SimpleWordCounter.exe
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\bin\Debug\net8.0\SimpleWordCounter.deps.json
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\bin\Debug\net8.0\SimpleWordCounter.runtimeconfig.json
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\bin\Debug\net8.0\SimpleWordCounter.dll
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\bin\Debug\net8.0\SimpleWordCounter.pdb
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\SimpleWordCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\SimpleWordCounter.AssemblyInfoInputs.cache
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\SimpleWordCounter.AssemblyInfo.cs
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\SimpleWordCounter.csproj.CoreCompileInputs.cache
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\SimpleWordCounter.dll
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\refint\SimpleWordCounter.dll
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\SimpleWordCounter.pdb
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\SimpleWordCounter.genruntimeconfig.cache
+C:\WORD COUNTER\SimpleWordCounter\SimpleWordCounter\obj\Debug\net8.0\ref\SimpleWordCounter.dll
