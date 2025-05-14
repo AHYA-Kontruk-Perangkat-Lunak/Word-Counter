@@ -14,13 +14,17 @@ namespace WordCounter
 
             foreach (var elemenItem in elemen)
             {
-                if (hitungan.ContainsKey(elemenItem))
+                object key = typeof(T) == typeof(string)
+                    ? ((string)(object)elemenItem).ToLower()
+                    : elemenItem;
+
+                if (hitungan.ContainsKey((T)key))
                 {
-                    hitungan[elemenItem]++;
+                    hitungan[(T)key]++;
                 }
                 else
                 {
-                    hitungan[elemenItem] = 1;
+                    hitungan[(T)key] = 1;
                 }
             }
 
