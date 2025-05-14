@@ -1,0 +1,14 @@
+D:\Duplikasi_Kata\Duplikasi_Kata\bin\Debug\net8.0\Duplikasi_Kata.exe
+D:\Duplikasi_Kata\Duplikasi_Kata\bin\Debug\net8.0\Duplikasi_Kata.deps.json
+D:\Duplikasi_Kata\Duplikasi_Kata\bin\Debug\net8.0\Duplikasi_Kata.runtimeconfig.json
+D:\Duplikasi_Kata\Duplikasi_Kata\bin\Debug\net8.0\Duplikasi_Kata.dll
+D:\Duplikasi_Kata\Duplikasi_Kata\bin\Debug\net8.0\Duplikasi_Kata.pdb
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\Duplikasi_Kata.GeneratedMSBuildEditorConfig.editorconfig
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\Duplikasi_Kata.AssemblyInfoInputs.cache
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\Duplikasi_Kata.AssemblyInfo.cs
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\Duplikasi_Kata.csproj.CoreCompileInputs.cache
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\Duplikasi_Kata.dll
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\refint\Duplikasi_Kata.dll
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\Duplikasi_Kata.pdb
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\Duplikasi_Kata.genruntimeconfig.cache
+D:\Duplikasi_Kata\Duplikasi_Kata\obj\Debug\net8.0\ref\Duplikasi_Kata.dll

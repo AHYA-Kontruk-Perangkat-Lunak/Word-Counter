@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Duplikasi_Kata/1.0.0": {
+        "runtime": {
+          "Duplikasi_Kata.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Duplikasi_Kata/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
