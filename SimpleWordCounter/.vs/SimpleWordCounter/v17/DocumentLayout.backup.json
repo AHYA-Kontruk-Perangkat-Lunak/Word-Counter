@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\WORD COUNTER\\SimpleWordCounter\\",
+  "WorkspaceRootPath": "C:\\WORD COUNTER\\Word-Counter\\SimpleWordCounter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|c:\\word counter\\simplewordcounter\\simplewordcounter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|c:\\word counter\\word-counter\\simplewordcounter\\simplewordcounter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|solutionrelative:simplewordcounter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|c:\\word counter\\simplewordcounter\\simplewordcounter\\features\\jumlahkalimat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|c:\\word counter\\word-counter\\simplewordcounter\\simplewordcounter\\features\\jumlahkalimat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|solutionrelative:simplewordcounter\\features\\jumlahkalimat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|c:\\word counter\\simplewordcounter\\simplewordcounter\\features\\ratakata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|c:\\word counter\\word-counter\\simplewordcounter\\simplewordcounter\\features\\ratakata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69D03612-B390-49C9-92F4-28A4EB14718D}|SimpleWordCounter\\SimpleWordCounter.csproj|solutionrelative:simplewordcounter\\features\\ratakata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "RataKata.cs",
-              "DocumentMoniker": "C:\\WORD COUNTER\\SimpleWordCounter\\SimpleWordCounter\\Features\\RataKata.cs",
+              "DocumentMoniker": "C:\\WORD COUNTER\\Word-Counter\\SimpleWordCounter\\SimpleWordCounter\\Features\\RataKata.cs",
               "RelativeDocumentMoniker": "SimpleWordCounter\\Features\\RataKata.cs",
-              "ToolTip": "C:\\WORD COUNTER\\SimpleWordCounter\\SimpleWordCounter\\Features\\RataKata.cs",
+              "ToolTip": "C:\\WORD COUNTER\\Word-Counter\\SimpleWordCounter\\SimpleWordCounter\\Features\\RataKata.cs",
               "RelativeToolTip": "SimpleWordCounter\\Features\\RataKata.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\WORD COUNTER\\SimpleWordCounter\\SimpleWordCounter\\Program.cs",
+              "DocumentMoniker": "C:\\WORD COUNTER\\Word-Counter\\SimpleWordCounter\\SimpleWordCounter\\Program.cs",
               "RelativeDocumentMoniker": "SimpleWordCounter\\Program.cs",
-              "ToolTip": "C:\\WORD COUNTER\\SimpleWordCounter\\SimpleWordCounter\\Program.cs*",
+              "ToolTip": "C:\\WORD COUNTER\\Word-Counter\\SimpleWordCounter\\SimpleWordCounter\\Program.cs*",
               "RelativeToolTip": "SimpleWordCounter\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T04:07:38.588Z",
               "EditorCaption": ""
@@ -53,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "JumlahKalimat.cs",
-              "DocumentMoniker": "C:\\WORD COUNTER\\SimpleWordCounter\\SimpleWordCounter\\Features\\JumlahKalimat.cs",
+              "DocumentMoniker": "C:\\WORD COUNTER\\Word-Counter\\SimpleWordCounter\\SimpleWordCounter\\Features\\JumlahKalimat.cs",
               "RelativeDocumentMoniker": "SimpleWordCounter\\Features\\JumlahKalimat.cs",
-              "ToolTip": "C:\\WORD COUNTER\\SimpleWordCounter\\SimpleWordCounter\\Features\\JumlahKalimat.cs",
+              "ToolTip": "C:\\WORD COUNTER\\Word-Counter\\SimpleWordCounter\\SimpleWordCounter\\Features\\JumlahKalimat.cs",
               "RelativeToolTip": "SimpleWordCounter\\Features\\JumlahKalimat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T04:06:01.183Z",
               "EditorCaption": ""
