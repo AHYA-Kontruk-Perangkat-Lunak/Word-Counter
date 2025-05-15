@@ -30,5 +30,18 @@ namespace WordCounter.Tests
             Assert.True(stopwatch.ElapsedMilliseconds < 1000,
                 $"Proses melebihi batas waktu (1000 ms): {stopwatch.ElapsedMilliseconds} ms");
         }
+
+        private string[] GenerateTestData(int jumlahKata)
+        {
+            string[] polaKata = { "apel", "mangga", "jeruk", "anggur", "pisang" };
+            string[] hasil = new string[jumlahKata];
+
+            for (int i = 0; i < jumlahKata; i++)
+            {
+                hasil[i] = polaKata[i % polaKata.Length];
+            }
+
+            return hasil;
+        }
     }
 }
